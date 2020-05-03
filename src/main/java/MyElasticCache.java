@@ -5,8 +5,10 @@ public class MyElasticCache {
 
     public static void main(String[] args) {
 
+
         new Profiler.Builder()
                 .profilingGroupName("elasticcache-demo")
+
                 .build().start();
 
         for (int i = 0; i < 10; i++) {
